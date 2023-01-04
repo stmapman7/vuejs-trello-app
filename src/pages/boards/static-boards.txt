@@ -1,0 +1,52 @@
+** Static boards text from Exercises 1-7 **
+
+import { ref } from "vue";
+
+const boards = ref<Partial<Board>[]>([
+  {
+    id: "1",
+    title: "My First Board",
+    order: "[]",
+    image: {
+      downloadUrl: "https://picsum.photos/480/270?board=1",
+    },
+  },
+  {
+    id: "2",
+    title: "My Second Board",
+    order: "[]",
+    image: {
+      downloadUrl: "https://picsum.photos/480/270?board=2",
+    },
+  },
+  {
+    id: "3",
+    title: "My Third Board",
+    order: "[]",
+  },
+  {
+    id: "4",
+    title: "And another one",
+    order: "[]",
+  },
+  {
+    id: "5",
+    title: "Cute boardie",
+    order: "[]",
+    image: {
+      downloadUrl: "https://picsum.photos/480/270?watermelon=5",
+    },
+  },
+  {
+    id: "6",
+    title: "Serious corpo board",
+    order: "[]",
+    image: {
+      downloadUrl: "https://picsum.photos/480/270?watermelon=6"
+    },
+  }
+]);
+
+function createBoard() {
+  alerts.success('Board created!');
+}

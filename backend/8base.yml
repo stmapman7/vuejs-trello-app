@@ -1,0 +1,5 @@
+functions:
+  addNewDummyBoard:
+    type: task
+    handler:
+      code: src/tasks/addNewDummyBoard/handler.js
