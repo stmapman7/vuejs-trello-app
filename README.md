@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-forge-boilerplate
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -57,3 +58,7 @@ npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```sh
 npm run lint
 ```
+=======
+# vuejs-trello-app
+A Trello Clone App Project built from the first Vue.js Forge Event - July 2022
+>>>>>>> f5918fcf4db695fe88aa39b85d487311325f5db1
