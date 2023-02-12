@@ -1,9 +1,5 @@
-# vuejs-trello-app
+# Vue.js Trello App
 A Trello Clone App Project built from the first Vue.js Forge Event - July 2022
-
-# vue-forge-boilerplate
-
-This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -60,5 +56,3 @@ npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```sh
 npm run lint
 ```
-=======
-
