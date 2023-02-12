@@ -12,10 +12,10 @@ const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
 <template>
   <router-link :to="`/boards/${board.id}`" class="block w-96">
     <KCard>
-      <AppImage v-if="board.image" :src="board.image?.downloadUrl" width="384" class="aspect-video w-full" />
-      <div v-else class="aspect-video w-full" :style="{ backgroundColor: randomColor }"></div>
+      <AppImage v-if="board.image" :src="board.image?.downloadUrl" class="384px aspect-video" />
+      <div v-else class="384px aspect-video" :style="{ backgroundColor: randomColor }"></div>
       <KCardTitle class="p-2">
-        <span class="text-gray-700 text-xl">{{ board.title }}</span>
+        <span class="text-xl text-gray-700">{{ board.title }}</span>
       </KCardTitle>
     </KCard>
   </router-link>

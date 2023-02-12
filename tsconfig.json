@@ -12,6 +12,10 @@
     },
     {
       "path": "./tsconfig.vitest.json"
-    }
-  ]
+    },
+    {
+      "path": "./tsconfig.cypress.json"
+    },
+  ],
+
 }

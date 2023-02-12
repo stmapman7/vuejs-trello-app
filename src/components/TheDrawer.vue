@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { Drawer, DrawerContent } from "@progress/kendo-vue-layout";
 import { useLocalStorage } from "@vueuse/core";
-import { useRouter } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import { computed, ref } from "vue";
 
 const router = useRouter();
+const route = useRoute();
+const selectedId = ref(0);
 
 const expanded = useLocalStorage("vue-forge-drawer-expanded",true);
 const expandedIcon = computed(() =>

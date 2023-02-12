@@ -28,3 +28,4 @@ coverage
 *.sw?
 
 kendo-ui-license.txt
+.env

@@ -15,8 +15,7 @@ const showTeams = ref(false);
    style="margin: -1px">
    <a href="/">
    <img src="https://vuejsforge.com/images/logo-vuejs-forge.svg"
-        width="150"
-        class="max-w-none"
+        class="max-w-none w-150px h-8"
         alt="Vue.js Forge" /></a>
   <div>
     <button ref="button" class="mr-5 text-[#ff6358]"
